@@ -44,10 +44,10 @@ This Python script uses the `moviepy` library to extract specific slices from a 
 
 1. Place your input video file in the project directory and name it `input_video.mp4`.
 
-2. Run the script `video_slicer.py`:
+2. Run the script `video.py`:
 
     ```bash
-    python video_slicer.py
+    python video.py
     ```
 
 3. The script will prompt you to enter the number of slices you want to create. For each slice, you will be asked to provide the start and end times in the format `HH:MM:SS`.
