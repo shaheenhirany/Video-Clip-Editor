@@ -10,8 +10,15 @@ video_duration = video.duration
 # List to store the slices
 clips = []
 
+# ANSI escape codes for color and font size
+RED_TEXT = '\033[91m'
+BOLD_TEXT = '\033[1m'
+RESET = '\033[0m'
+
 # Ask the user for the number of slices they want to create
-num_slices = int(input("Enter the number of slices you want to create: "))
+num_slices = int(input(f"""{BOLD_TEXT}{RED_TEXT}Powered by SHAHEEN HIRANI & ALIKARIM{RESET} 
+
+Enter the number of slices you want to create: """))
 
 for i in range(num_slices):
     while True:
@@ -41,5 +48,5 @@ else:
     print("No valid slices were provided.")
 
 # Exit the script
-print("Exiting the program...(*Powered by Shaheen Hirani & Ali Karim*)")
-sys.exit()00:00
+print("Exiting the program...(*Powered by SHAHEEN HIRANI & ALIKARIM*)")
+sys.exit()
